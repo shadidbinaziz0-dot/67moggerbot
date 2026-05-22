@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "KeepsServerOn",
+    "username": "KeepingServerOn",
     "password": "",
     "type": "offline"
   },
@@ -29,9 +29,9 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 600,
       "messages": [
-        "I'm a bot to keep the server online(stopping it from shutting down every 5 minutes if no one is online)"
+        "I'm a just a bot to keep the server online(stopping it from shutting down every 5 minutes if no one is online)"
       ]
     },
     "chat-log": true,
@@ -80,6 +80,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
