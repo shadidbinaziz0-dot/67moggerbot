@@ -29,7 +29,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 600,
+      "repeat-delay": 300,
       "messages": [
         "I'm a just a bot to keep the server online"
       ]
@@ -80,6 +80,6 @@
     }
   },
   "chat": {
-    "respond": false
+    "respond": true
   }
 }
