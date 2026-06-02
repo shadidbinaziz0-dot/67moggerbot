@@ -1,12 +1,12 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Keep1ngServer0n",
+    "username": "Ke3p1ngServer0n",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "RSrohanserver.aternos.me",
+    "ip": "Rsrohanserver.aternos.me",
     "port": 43911,
     "version": "",
     "try-creative": false
@@ -27,17 +27,19 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
-      "repeat-delay": 1800,
+      "repeat-delay": 120,
       "messages": [
-        "I'm a just a bot to keep the server online"
+        "I'm a regular player",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 2000
+    "max-reconnect-delay": 120000
   },
   "movement": {
     "enabled": true,
